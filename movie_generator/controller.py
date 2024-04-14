@@ -17,7 +17,9 @@ class MovieOperation:
         script = None
         raise NotImplementedError
         #return script
-    
+
+
+
     def gen_subtitles(self, text:str):
         """
         generate subtitles/summary based on the text
